@@ -1,0 +1,14 @@
+.terminal {
+    background-color: #77216f ;
+    position: absolute;
+    cursor: move;
+    border: 5px solid black ;
+    max-width: 215px;
+    border-radius: 5px;
+    padding: 1em;
+    margin: auto;
+    user-select: none;
+  }
+.terminal_text {
+    border: red;
+}
