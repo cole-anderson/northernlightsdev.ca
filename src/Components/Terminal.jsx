@@ -8,13 +8,16 @@ function Terminal() {
             <div className="terminal">
                 <form className="terminal_text">
                     <label align="left">
-                        Choose Account:
+                        Enter Your Name:
                         <input></input>
                     </label>
                 </form>
             </div>
-        </Draggable>
+        </Draggable >
     );
+}
+function test() {
+    console.log("this is a test")
 }
 
 export default Terminal;
