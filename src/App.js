@@ -10,7 +10,7 @@ import BackTwo from './Components/BackgroundTwo.js';
 import BackThree from './Components/BackgroundThree.js';
 import TextBoxOne from './Components/TextBoxOne.js';
 import TextBoxTwo from './Components/TextBoxTwo.js';
-import TextBoxThree from './Components/TextBoxThree.js';
+// import TextBoxThree from './Components/TextBoxThree.js';
 
 function App() {
   return (
