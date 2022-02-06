@@ -20,7 +20,6 @@ function App() {
       <BackTwo />
       <TextBoxTwo />
       <BackThree />
-      <TextBoxThree />
     </div>
 
 
