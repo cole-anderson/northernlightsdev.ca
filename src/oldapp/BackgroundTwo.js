@@ -7,7 +7,7 @@ function BackTwo() {
         <Parallax className="image" bgImage={SpaceSky} strength={1000}>
             <div className='content'>
                 <span className='img-txt'>
-                    I am a Software Developer residing in Alberta
+                    I am a Software Developer residing in Alberta, Canada
                 </span>
             </div>
 

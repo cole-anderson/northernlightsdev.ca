@@ -1,11 +1,12 @@
-import React from "react";
+import Draggable from 'react-draggable';
+import React from 'react'
 
-function Home() {
+export default function Home() {
     return (
-        <div height="200px">
-            Hello world
-        </div>
-    );
+        <Draggable>
+            <div className="box">
+                <div>Move me around!</div>
+            </div>
+        </Draggable>
+    )
 }
-
-export default Home;

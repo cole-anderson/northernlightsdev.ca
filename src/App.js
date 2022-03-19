@@ -1,27 +1,19 @@
 import React from 'react'
-// import { Route, BrowserRouter as Router, Switch } from "react-router-dom";
-// import Draggable from 'react-draggable';
-// import Terminal from './Components/Terminal.jsx';
-// import Home from './Components/Home.jsx'
-// import Header from './Components/Header';
-// import Footer from './Components/Footer.js';
-import BackOne from './Components/BackgroundOne.js';
-import BackTwo from './Components/BackgroundTwo.js';
-import BackThree from './Components/BackgroundThree.js';
-import TextBoxOne from './Components/TextBoxOne.js';
-import TextBoxTwo from './Components/TextBoxTwo.js';
-// import TextBoxThree from './Components/TextBoxThree.js';
+import Home from './Components/Home';
+import Window from './Components/Window';
+
+/** Terminal window in a desktop enviroment
+1) when page loads script executes that display some info, then allows for user input
+2) Background has icons that go to different pages(they dont actuall go to a diff page they open a new box that display the given information)
+
+*/
 
 function App() {
-  return (
-    <div>
-      <BackOne />
-      <TextBoxOne />
-      <BackTwo />
-      <TextBoxTwo />
-      <BackThree />
-    </div>
 
+  let test = "hello world"
+
+  return (
+    <Window windowRoute={test} />
 
   );
 }
