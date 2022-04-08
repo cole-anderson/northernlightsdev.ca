@@ -1,6 +1,7 @@
 import React from 'react'
 import Home from './Components/Home';
 import Window from './Components/Window';
+import WindowManager from './Components/WindowManager';
 
 /** Terminal window in a desktop enviroment
 1) when page loads script executes that display some info, then allows for user input
@@ -10,23 +11,10 @@ import Window from './Components/Window';
 
 function App() {
 
-  let test = "hello world"
-
   return (
-    <Window windowRoute={test} />
-
+    <WindowManager />
   );
+
 }
 
 export default App;
-
-//extra stuff
-// <Router>
-    //   <div>
-    //     <Header />
-    //     <div>
-    //       <><Home /><Terminal /></>
-    //     </div>
-    //     <Footer />
-    //   </div>
-    // </Router>
