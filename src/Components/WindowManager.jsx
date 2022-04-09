@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useState } from 'react'
 import Window from './Window';
 
 /**
@@ -9,7 +9,9 @@ import Window from './Window';
 
 export default function WindowManager() {
 
-    let windowArray = [];
+    // const [windowArray, setWindowArray] = useState([]);
+
+    let windowArray = []
 
     // let test = "hello world"
     // let val = <Window windowRoute={test} />;
@@ -21,6 +23,7 @@ export default function WindowManager() {
     // windowArray.forEach(element => {
     //   console.log(element)
     // });
+    console.log(windowArray)
 
     return (
         <>
@@ -32,12 +35,13 @@ export default function WindowManager() {
                     );
                 })
             }
+
+            {/* <button onClick={setWindowArray()}>Click Me</button> */}
         </>
     );
 
     function WindowArrayManipulator(name) {
         let tempWindow = <Window key={name} windowRoute={name} />
         windowArray.push(tempWindow);
-
     }
 }
